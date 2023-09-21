@@ -1,7 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class FirstClass extends StatefulWidget {
+  const FirstClass();
+
   @override
   State<StatefulWidget> createState() {
     return FirstClassState();
@@ -26,10 +27,17 @@ class FirstClassState extends State<FirstClass> {
                     decoration: BoxDecoration(
                         color: Colors.grey,
                         borderRadius: BorderRadius.circular(15.0)),
-                    child: const Row(
+                    child: Row(
                       children: [
                         Icon(Icons.search, color: Colors.black),
-                        Text('Search Here')
+                        Expanded(
+                          child: TextField(
+                            decoration: InputDecoration(
+                              border: InputBorder.none,
+                              hintText: 'Search Here',
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                   )
