@@ -1,23 +1,28 @@
-import "package:flutter/material.dart";
+import 'package:flutter/material.dart';
+import 'package:test_project/start_screen.dart';
 
-import "firstclass.dart";
 
 void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: "Hello App",
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        body: Container(
+          decoration:const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Color.fromARGB(255, 26, 2, 80),
+                Color.fromARGB(255, 45, 7, 98),
+              ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+          child: const StartScreen([
+                Color.fromARGB(255, 26, 2, 80),
+                Color.fromARGB(255, 45, 7, 98),
+              ]),
+        ),
       ),
-      home: FirstClass(),
-    );
-  }
+    ),
+  );
 }
