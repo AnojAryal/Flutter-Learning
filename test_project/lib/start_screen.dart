@@ -4,10 +4,10 @@ const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
 
 class StartScreen extends StatelessWidget {
-  const StartScreen(this.colors, {Key? key})
-      : super(key: key); //constructer function
-
-  final List<Color> colors;
+  const StartScreen(this.startQuiz,{super.key});
+       //constructer function
+ 
+  final void Function() startQuiz;
 
   @override
   Widget build(context) {
@@ -32,7 +32,7 @@ class StartScreen extends StatelessWidget {
         ),
         const SizedBox(height: 40),
         OutlinedButton.icon(
-          onPressed: () {},
+          onPressed : startQuiz,
           style: OutlinedButton.styleFrom(
             foregroundColor: Colors.white,
           ),
