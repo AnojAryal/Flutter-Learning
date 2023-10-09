@@ -40,7 +40,7 @@ class ResultsScreen extends StatelessWidget {
             const Text('You answered X out of Y questions correctly!'),
             const SizedBox(height: 30),
             QuestionsSummary(getSummaryData()),
-            const SizedBox(height: 30),
+            const SizedBox(height: 50),
             TextButton(
               onPressed: () {},
               child: const Text('Restart Quiz'),
