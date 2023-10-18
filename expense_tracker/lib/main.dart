@@ -9,13 +9,19 @@ void main() {
   runApp(
     MaterialApp(
         theme: ThemeData().copyWith(
-          useMaterial3: true,
-          colorScheme: kColorscheme,
-          appBarTheme:const AppBarTheme().copyWith(
-            backgroundColor: kColorscheme.onPrimaryContainer,
-            foregroundColor: kColorscheme.primaryContainer,
-          )
-        ),
+            useMaterial3: true,
+            colorScheme: kColorscheme,
+            appBarTheme: const AppBarTheme().copyWith(
+              backgroundColor: kColorscheme.onPrimaryContainer,
+              foregroundColor: kColorscheme.primaryContainer,
+            ),
+            cardTheme: const CardTheme().copyWith(
+              color: kColorscheme.secondaryContainer,
+              margin: const EdgeInsets.symmetric(
+                horizontal: 16,
+                vertical: 8,
+              ),
+            )),
         home: const Expenses()),
   );
 }
