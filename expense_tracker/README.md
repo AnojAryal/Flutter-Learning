@@ -1,7 +1,15 @@
 # expense_tracker
 
-Interactivity and theming. Basic user input handling through expense tracker
+--> Interactivity and theming. Basic user input handling through expense tracker
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+--> Adding interactivity, More Widgets and Theming
+
+## Responsive and adaptive
+
+Adjusting Apps for different screen sizes and platforms
+
+--> detecting and using screen and platfrom information
+--> changing layout based on screen size
+--> building adaptiave widgets
