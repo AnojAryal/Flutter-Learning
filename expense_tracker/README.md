@@ -10,6 +10,6 @@
 
 Adjusting Apps for different screen sizes and platforms
 
---> detecting and using screen and platfrom information
---> changing layout based on screen size
---> building adaptiave widgets
+1) detecting and using screen and platfrom information
+2) changing layout based on screen size
+3) building adaptiave widgets
