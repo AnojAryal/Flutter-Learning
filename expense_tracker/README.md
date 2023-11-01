@@ -13,3 +13,5 @@ Adjusting Apps for different screen sizes and platforms
 1) detecting and using screen and platfrom information
 2) changing layout based on screen size
 3) building adaptiave widgets
+4) understanding size constraints
+5) device orientations
