@@ -4,7 +4,8 @@
 
 ## Getting Started
 
---> Adding interactivity, More Widgets and Theming
+--> Adding interactivity, More Widgets
+--> Learning Theming apps
 
 ## Responsive and adaptive
 
