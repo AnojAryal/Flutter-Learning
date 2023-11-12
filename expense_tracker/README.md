@@ -16,3 +16,11 @@ Adjusting Apps for different screen sizes and platforms
 3) building adaptiave widgets
 4) understanding size constraints
 5) device orientations
+
+## Key Points
+
+1) building responsive user interfaces by using media query to get the width or height of the screen on which the ui is percented , or using layout builder to get the constraints applied by the parent widget of the widget in which we are using layoutbuilder
+2) using those informations for building/ rendering ui or parts of the ui conditionally
+3) learned to dynamically add extra padding and added scrollability
+4) learned about safe area for avoiding overlapping of ui
+5) finding out the current paltforms and changing device platforms
