@@ -8,4 +8,6 @@ build method is being called and the widget tree is being re-evaluated and parti
 but the element and rendred tree will be untouched after clicking no button.
 
 
-build will be called after clicking to yes button but the element will not be called 
+build will be called after clicking to yes button but the element will not be called.
+
+understanding and using keys.
