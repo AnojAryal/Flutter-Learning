@@ -1,6 +1,6 @@
 # test_project
 
-A new Flutter project.
+Building quizapp with flutter.
 
 ## Getting Started
 
